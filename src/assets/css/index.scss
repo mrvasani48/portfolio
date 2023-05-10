@@ -1,0 +1,17 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./components/dashboards.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.dark {
+  @apply bg-dark-900 text-white;
+}
+.light {
+  @apply bg-white text-black;
+}
+
+body,
+html {
+  @apply font-sans w-full relative scroll-smooth m-0 p-0 font-normal leading-[1.4];
+}
