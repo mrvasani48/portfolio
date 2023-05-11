@@ -29,7 +29,7 @@ const Header = () => {
         <nav className="flex items-center gap-5 text-xl dark:text-light-primary text-dark-500">
           <a
             href="#home"
-            className="hover:cursor-pointer hover:text-light-white  "
+            className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"
           >
@@ -37,7 +37,7 @@ const Header = () => {
           </a>
           <a
             href="#home"
-            className="hover:cursor-pointer hover:text-light-white  "
+            className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"
           >
@@ -45,7 +45,7 @@ const Header = () => {
           </a>
           <a
             href="#home"
-            className="hover:cursor-pointer hover:text-light-white  "
+            className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"
           >
@@ -53,7 +53,7 @@ const Header = () => {
           </a>
           <a
             href="#home"
-            className="hover:cursor-pointer hover:text-light-white  "
+            className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"
           >
@@ -61,7 +61,7 @@ const Header = () => {
           </a>
           <a
             href="#home"
-            className="hover:cursor-pointer hover:text-light-white  "
+            className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"
           >
@@ -69,7 +69,7 @@ const Header = () => {
           </a>
           <a
             href="#home"
-            className="hover:cursor-pointer hover:text-light-white  "
+            className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"
           >
@@ -77,7 +77,7 @@ const Header = () => {
           </a>
           <a
             href="#home"
-            className="hover:cursor-pointer hover:text-light-white  "
+            className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"
           >
@@ -85,7 +85,7 @@ const Header = () => {
           </a>
           <a
             href="#home"
-            className="hover:cursor-pointer hover:text-light-white  "
+            className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"
           >
@@ -94,7 +94,7 @@ const Header = () => {
         </nav>
         <div className="flex items-center">
           <button
-            className="h-[30px] w-[30px]"
+            className="h-[30px] w-[30px] hover:shadow-md hover:shadow-dark-500 hover:scale-125 hover:rounded-full"
             onClick={() => setDarkTheme(!darkTheme)}
           >
             {darkTheme ? (
