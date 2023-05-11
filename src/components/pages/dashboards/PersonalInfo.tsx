@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 
 const PersonalInfo = () => {
   return (
-    <div className="container mx-auto grid grid-cols-2 mt-12 mb-5" >
+    <div className="container mx-auto grid grid-cols-2 mt-12 mb-5" id='home'>
       <div className="my-4 mt-28 ">
         <p className="mb-8 font-bold uppercase"> welcome to my world</p>
         <h1 className="text-7xl font-bold">
