@@ -36,7 +36,7 @@ const Header = () => {
             Home
           </a>
           <a
-            href="#home"
+            href="#features"
             className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"
@@ -44,7 +44,7 @@ const Header = () => {
             Features
           </a>
           <a
-            href="#home"
+            href="#PortFolio"
             className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"

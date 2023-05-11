@@ -3,7 +3,7 @@ import { images } from "assets/img";
 
 const Portfolio = () => {
   return (
-    <>
+    <div id='PortFolio'>
       <p className="mt-20 mb-5 border-2 border-dark-600 features"></p>
       <div className="mt-16">
         <p className="text-xl text-red-500 text-center dark:text-green-500">
@@ -160,7 +160,7 @@ const Portfolio = () => {
         </div>
       </div>
       <p className="mt-20 mb-5 border-2 border-dark-600 features"></p>
-    </>
+    </div>
   );
 };
 
