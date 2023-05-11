@@ -3,7 +3,7 @@ import { Icon } from "@iconify/react";
 const Features = () => {
   return (
     <>
-      <p className="mt-16 mb-5 border-2 border-dark-600 features"></p>
+      <p className="mt-20 mb-5 border-2 border-dark-600 features"></p>
       <div className="mt-10 ">
         <p className="text-xl mb-10 text-red-500 ">FEATURES</p>
         <h1 className="text-5xl font-bold">WHAT I DO </h1>
