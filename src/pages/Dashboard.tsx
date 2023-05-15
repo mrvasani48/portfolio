@@ -5,6 +5,8 @@ const PersonalInfo = lazy(
 );
 const Features = lazy(() => import("components/pages/dashboards/Features"));
 const Portfolio = lazy(() => import("components/pages/dashboards/Portfolio"));
+const Resume = lazy(() => import("components/pages/dashboards/Resume"));
+
 const Dashboard = () => {
   return (
     <>
@@ -15,8 +17,13 @@ const Dashboard = () => {
       <Suspense fallback="">
         <Features />
       </Suspense>
+
       <Suspense fallback="">
         <Portfolio />
+      </Suspense>
+
+      <Suspense fallback="">
+        <Resume />
       </Suspense>
     </>
   );

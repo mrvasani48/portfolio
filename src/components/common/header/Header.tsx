@@ -52,7 +52,7 @@ const Header = () => {
             PortFolio
           </a>
           <a
-            href="#home"
+            href="#resume"
             className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"

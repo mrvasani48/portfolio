@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 
 const PersonalInfo = () => {
   return (
-    <div className="container mx-auto grid grid-cols-2 mt-12 mb-5" id='home'>
+    <div className="container mx-auto grid grid-cols-2 mt-12 mb-5" id="home">
       <div className="my-4 mt-28 ">
         <p className="mb-8 font-bold uppercase"> welcome to my world</p>
         <h1 className="text-7xl font-bold">
@@ -18,7 +18,7 @@ const PersonalInfo = () => {
             a
             <Typewriter
               options={{
-                strings: ["Developer.", "Professional coder."],
+                strings: ["Developer.", "Professional coder.", "Technologist."],
                 autoStart: true,
                 loop: true,
               }}
@@ -26,10 +26,12 @@ const PersonalInfo = () => {
           </div>
         </h1>
         <p className="mt-20 text-lg pr-40 font-sans">
-          As a skilled software developer, I bring expertise in a variety of
-          programming languages, tools, and methodologies. With a passion for
-          innovation and problem-solving, I thrive in collaborative environments
-          and believe in the importance of communication and teamwork.
+          As a skilled full-stack developer, I possess expertise in a wide range
+          of programming languages, tools, and methodologies required for both
+          front-end and back-end development. With a strong passion for
+          innovation and a knack for problem-solving, I excel in collaborative
+          environments and understand the significance of effective
+          communication and teamwork in delivering successful projects.
         </p>
         <div className="mt-20 grid grid-cols-2">
           <div>
