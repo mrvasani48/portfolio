@@ -13,6 +13,7 @@ const Header = () => {
       document.querySelector("html")?.classList.remove("dark");
     }
   }, [darkTheme]);
+  
   return (
     <div className="grid grid-cols-2 mb-5 pt-3 sticky top-0 bg-white dark:bg-dark-900 z-50" >
       <div className="flex items-center gap-5">
