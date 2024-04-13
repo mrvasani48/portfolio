@@ -1,0 +1,12 @@
+.Typewriter {
+  span {
+    @apply text-6xl;
+  }
+}
+.thumbnail {
+  @apply before:content-[''] before:bg-dark-secondary before:h-[calc(100%-170px)] before:w-[90%] before:absolute before:bottom-0  before:-z-10 before:rounded-md before:shadow-xl before:shadow-dark-500;
+
+  img {
+    @apply h-[800px];
+  }
+}
