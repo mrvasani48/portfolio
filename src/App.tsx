@@ -3,6 +3,7 @@ import Master from "./layout/Master";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "@mantine/carousel/styles.css";
 import Dashboard from "pages/Dashboard";
+// import "@mantine/core/styles.layer.css";
 
 function App() {
   return (
