@@ -77,7 +77,7 @@ const Header = () => {
             Pricing
           </a>
           <a
-            href="#home"
+            href="#blog"
             className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"
@@ -85,7 +85,7 @@ const Header = () => {
             Blog
           </a>
           <a
-            href="#home"
+            href="#contact"
             className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"

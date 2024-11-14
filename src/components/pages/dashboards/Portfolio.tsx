@@ -3,10 +3,10 @@ import { images } from "assets/img";
 
 const Portfolio = () => {
   return (
-    <div id='PortFolio'>
+    <div id="PortFolio">
       <p className="mt-20 mb-5 border-2 border-dark-600 features"></p>
       <div className="mt-16">
-        <p className="text-xl text-red-500 text-center">
+        <p className="text-xl text-theme text-center">
           VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
         </p>
         <h2 className="text-gray-300 text-7xl text-center pt-10 mb-7">
@@ -22,14 +22,14 @@ const Portfolio = () => {
               />
             </div>
             <div className="flex justify-between items-center pt-5">
-              <p className="text-xl text-red-500">Development</p>
+              <p className="text-xl text-theme">Development</p>
               <p className="flex gap-1 items-center text-xl">
                 <Icon icon="mdi:cards-heart-outline" /> 600
               </p>
             </div>
-            <p className="text-gray-300 text-2xl text-start pt-5 hover:text-red-500">
+            <p className="text-gray-300 text-2xl text-start pt-5 hover:text-theme">
               The Service Provide For Design{" "}
-              <span className="group-hover:visible invisible ml-1 text-3xl text-red-500   ">
+              <span className="group-hover:visible invisible ml-1 text-3xl text-theme   ">
                 <Icon
                   icon="material-symbols:arrow-outward"
                   className="inline "
@@ -46,14 +46,14 @@ const Portfolio = () => {
               />
             </div>
             <div className="flex justify-between items-center pt-5">
-              <p className="text-xl text-red-500">FIGMA</p>
+              <p className="text-xl text-theme">FIGMA</p>
               <p className="flex gap-1 items-center text-xl">
                 <Icon icon="mdi:cards-heart-outline" /> 150
               </p>
             </div>
-            <p className="text-gray-300 text-2xl text-start pt-5 hover:text-red-500">
+            <p className="text-gray-300 text-2xl text-start pt-5 hover:text-theme">
               Mobile App landing design & app maintain
-              <span className="group-hover:visible invisible ml-1 text-3xl text-red-500   ">
+              <span className="group-hover:visible invisible ml-1 text-3xl text-theme   ">
                 <Icon
                   icon="material-symbols:arrow-outward"
                   className="inline "
@@ -70,14 +70,14 @@ const Portfolio = () => {
               />
             </div>
             <div className="flex justify-between items-center pt-5">
-              <p className="text-xl text-red-500">WEB DESIGN</p>
+              <p className="text-xl text-theme">WEB DESIGN</p>
               <p className="flex gap-1 items-center text-xl">
                 <Icon icon="mdi:cards-heart-outline" /> 4000
               </p>
             </div>
-            <p className="text-gray-300 text-3xl text-start pt-5 hover:text-red-500">
+            <p className="text-gray-300 text-3xl text-start pt-5 hover:text-theme">
               Design for technology & service
-              <span className="group-hover:visible invisible ml-1 text-3xl text-red-500   ">
+              <span className="group-hover:visible invisible ml-1 text-3xl text-theme   ">
                 <Icon
                   icon="material-symbols:arrow-outward"
                   className="inline "
@@ -94,14 +94,14 @@ const Portfolio = () => {
               />
             </div>
             <div className="flex justify-between items-center pt-5">
-              <p className="text-xl text-red-500">FIGMA</p>
+              <p className="text-xl text-theme">FIGMA</p>
               <p className="flex gap-1 items-center text-xl">
                 <Icon icon="mdi:cards-heart-outline" /> 447
               </p>
             </div>
-            <p className="text-gray-300 text-2xl text-start pt-5 hover:text-red-500">
+            <p className="text-gray-300 text-2xl text-start pt-5 hover:text-theme">
               Mobile app landing design & service
-              <span className="group-hover:visible invisible ml-1 text-3xl text-red-500   ">
+              <span className="group-hover:visible invisible ml-1 text-3xl text-theme   ">
                 <Icon
                   icon="material-symbols:arrow-outward"
                   className="inline "
@@ -118,14 +118,14 @@ const Portfolio = () => {
               />
             </div>
             <div className="flex justify-between items-center pt-5">
-              <p className="text-xl text-red-500">WEB DESIGN</p>
+              <p className="text-xl text-theme">WEB DESIGN</p>
               <p className="flex gap-1 items-center text-xl">
                 <Icon icon="mdi:cards-heart-outline" /> 787
               </p>
             </div>
-            <p className="text-gray-300 text-3xl text-start pt-5 hover:text-red-500">
+            <p className="text-gray-300 text-3xl text-start pt-5 hover:text-theme">
               Design technology & service
-              <span className="group-hover:visible invisible ml-1 text-3xl text-red-500   ">
+              <span className="group-hover:visible invisible ml-1 text-3xl text-theme   ">
                 <Icon
                   icon="material-symbols:arrow-outward"
                   className="inline "
@@ -142,14 +142,14 @@ const Portfolio = () => {
               />
             </div>
             <div className="flex justify-between items-center pt-5">
-              <p className="text-xl text-red-500">WEB DESIGN</p>
+              <p className="text-xl text-theme">WEB DESIGN</p>
               <p className="flex gap-1 items-center text-xl">
                 <Icon icon="mdi:cards-heart-outline" /> 985
               </p>
             </div>
-            <p className="text-gray-300 text-2xl text-start pt-5 hover:text-red-500">
+            <p className="text-gray-300 text-2xl text-start pt-5 hover:text-theme">
               App for Technology & service
-              <span className="group-hover:visible invisible ml-1 text-3xl text-red-500   ">
+              <span className="group-hover:visible invisible ml-1 text-3xl text-theme   ">
                 <Icon
                   icon="material-symbols:arrow-outward"
                   className="inline "

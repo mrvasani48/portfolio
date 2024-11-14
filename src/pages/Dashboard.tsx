@@ -12,9 +12,10 @@ const Testimonial = lazy(
 const Clients = lazy(
   () => import("components/pages/dashboards/Clients/Clients")
 );
-const ContactMe =  lazy(
+const ContactMe = lazy(
   () => import("components/pages/dashboards/ContactMe/ContactMe")
 );
+const Blog = lazy(() => import("components/pages/dashboards/blog/Blog"));
 
 const Dashboard = () => {
   return (
@@ -41,6 +42,10 @@ const Dashboard = () => {
 
       <Suspense fallback="">
         <Clients />
+      </Suspense>
+
+      <Suspense fallback="">
+        <Blog />
       </Suspense>
 
       <Suspense fallback="">

@@ -6,7 +6,9 @@ const Footer = lazy(() => import("../components/common/footer/Footer"));
 const Master = () => {
   return (
     <div className="container mx-auto">
-      <Suspense fallback="">{/* <Header /> */}</Suspense>
+      <Suspense fallback=""> 
+        <Header /> 
+      </Suspense>
       <Outlet />
       <Suspense fallback="">
         <Footer />

@@ -5,7 +5,7 @@ import TextInputCommon from "components/common/inputs/TextInputCommon";
 
 const ContactMe = () => {
   return (
-    <div className="contact-me-container">
+    <div className="contact-me-container" id="contact">
       <div className="mt-16">
         <p className="text-xl text-red-500 text-center"> Contact </p>
         <h2 className="text-gray-300 text-7xl text-center pt-10 mb-7">
