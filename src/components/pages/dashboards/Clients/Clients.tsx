@@ -20,6 +20,7 @@ const Clients = () => {
           <Tabs.Panel value="settings">Settings tab content</Tabs.Panel>
         </Tabs>
       </div>
+      <p className="mt-20 mb-5 border-2 border-dark-600 features"></p>
     </div>
   );
 };
