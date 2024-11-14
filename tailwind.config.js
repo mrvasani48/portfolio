@@ -32,8 +32,7 @@ module.exports = {
           light: "#9ca3b2",
         },
         theme: {
-          DEFAULT: "#556ee6",
-          400: "#FFC5CA",
+          DEFAULT: "#ff014f",
         },
       },
       fontWeight: {
