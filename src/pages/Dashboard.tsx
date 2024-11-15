@@ -17,6 +17,8 @@ const ContactMe = lazy(
 );
 const Blog = lazy(() => import("components/pages/dashboards/blog/Blog"));
 
+const PriceModal = lazy(()=> import('components/pages/dashboards/priceModal/PriceModal'))
+
 const Dashboard = () => {
   return (
     <>
@@ -44,6 +46,9 @@ const Dashboard = () => {
         <Clients />
       </Suspense>
 
+      <Suspense fallback="">
+        <PriceModal />
+      </Suspense>
       <Suspense fallback="">
         <Blog />
       </Suspense>

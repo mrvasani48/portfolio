@@ -1,16 +1,16 @@
-import { Icon } from "@iconify/react";
-import { Carousel } from "@mantine/carousel";
-import { images } from "assets/img";
+import { Icon } from '@iconify/react'
+import { Carousel } from '@mantine/carousel'
+import { images } from 'assets/img'
 
 const Testimonial = () => {
   return (
     <div>
       <div className="mt-16">
-        <p className="text-md text-red-500 text-center uppercase">
-          What client say{" "}
+        <p className="text-md text-theme text-center uppercase">
+          What client say{' '}
         </p>
         <h2 className="text-gray-300 text-7xl text-center pt-5 mb-7">
-          Testimonial{" "}
+          Testimonial{' '}
         </h2>
       </div>
       <div className="mx-20">
@@ -30,7 +30,7 @@ const Testimonial = () => {
                     <div className="overflow-hidden rounded-xl ">
                       <img
                         src={
-                          "https://rainbowit.net/html/inbio/assets/images/testimonial/final-home--1st.png" ??
+                          'https://rainbowit.net/html/inbio/assets/images/testimonial/final-home--1st.png' ??
                           images.portfolio1
                         }
                         alt="portfolio app"
@@ -38,10 +38,10 @@ const Testimonial = () => {
                       />
                     </div>
                     <div className="flex justify-between items-center pt-5">
-                      <p className="text-xl text-red-500">Development</p>
+                      <p className="text-xl text-theme">Development</p>
                     </div>
-                    <p className="text-gray-300 text-3xl text-start pt-5 hover:text-red-500">
-                      Davei Luace{" "}
+                    <p className="text-gray-300 text-3xl text-start pt-5 hover:text-theme">
+                      Davei Luace{' '}
                     </p>
                     <p className="text-gray-300 text-xl text-start pt-5">
                       Chief Operating Manager
@@ -83,7 +83,7 @@ const Testimonial = () => {
         </Carousel>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Testimonial;
+export default Testimonial

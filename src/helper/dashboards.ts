@@ -18,3 +18,20 @@ export const resumeName = {
   EXPERIENCE: "Experience",
   INTERVIEW: "interview",
 };
+
+export const priceTab = [
+  {
+    name: "static",
+  },
+  {
+    name: "standard",
+  },
+  {
+    name: "premium",
+  },
+];
+export const priceName = {
+  STATIC: "static",
+  STANDARD: "standard",
+  PREMIUM: "premium",
+};

@@ -1,6 +1,6 @@
-import { images } from "assets/img";
-import { Icon } from "@iconify/react";
-import Typewriter from "typewriter-effect";
+import { images } from 'assets/img'
+import { Icon } from '@iconify/react'
+import Typewriter from 'typewriter-effect'
 
 const PersonalInfo = () => {
   return (
@@ -8,17 +8,17 @@ const PersonalInfo = () => {
       <div className="my-4 mt-28 ">
         <p className="mb-8 font-bold uppercase"> welcome to my world</p>
         <h1 className="text-7xl font-bold">
-          Hi, I’m{" "}
+          Hi, I’m{' '}
           <span className="text-dark-900 dark:text-red-600 font-bold">
-            {" "}
-            Jone Lee{" "}
+            {' '}
+            Jone Lee{' '}
           </span>
           <div className="flex gap-5 pt-5 font-bold">
-            {" "}
+            {' '}
             a
             <Typewriter
               options={{
-                strings: ["Developer.", "Professional coder.", "Technologist."],
+                strings: ['Developer.', 'Professional coder.', 'Technologist.'],
                 autoStart: true,
                 loop: true,
               }}
@@ -41,7 +41,7 @@ const PersonalInfo = () => {
                 href="https://www.linkedin.com/in/kishan-vasani-3083961a5"
                 target="_blank"
                 rel="noreferrer"
-                className="text-4xl bg-dark-secondary p-2 rounded-md  dark:text-red-500 text-white before:bottom-0  before:-z-10 before:rounded-md hover:shadow-md hover:shadow-dark-500"
+                className="text-4xl bg-dark-secondary p-2 rounded-md  dark:text-theme text-white before:bottom-0  before:-z-10 before:rounded-md hover:shadow-md hover:shadow-dark-500"
               >
                 <Icon icon="ri:linkedin-line" />
               </a>
@@ -49,7 +49,7 @@ const PersonalInfo = () => {
                 href="https://twitter.com/mrvasani48"
                 target="_blank"
                 rel="noreferrer"
-                className="text-4xl bg-dark-secondary p-2 rounded-md  dark:text-red-500 text-white hover:shadow-md hover:shadow-dark-500"
+                className="text-4xl bg-dark-secondary p-2 rounded-md  dark:text-theme text-white hover:shadow-md hover:shadow-dark-500"
               >
                 <Icon icon="icon-park-outline:twitter" />
               </a>
@@ -57,7 +57,7 @@ const PersonalInfo = () => {
                 href="https://instagram.com/er.entwickler_48?igshid=ZGUzMzM3NWJiOQ=="
                 target="_blank"
                 rel="noreferrer"
-                className="text-4xl bg-dark-secondary p-2 rounded-md  dark:text-red-500 text-white hover:shadow-md hover:shadow-dark-500"
+                className="text-4xl bg-dark-secondary p-2 rounded-md  dark:text-theme text-white hover:shadow-md hover:shadow-dark-500"
               >
                 <Icon icon="bxl:instagram" />
               </a>
@@ -66,13 +66,13 @@ const PersonalInfo = () => {
           <div>
             <p className="uppercase">best skill on</p>
             <div className="flex gap-10 mt-4">
-              <p className="text-4xl bg-dark-secondary dark:text-red-500 p-2 rounded-md text-white hover:shadow-md hover:shadow-dark-500">
+              <p className="text-4xl bg-dark-secondary dark:text-theme p-2 rounded-md text-white hover:shadow-md hover:shadow-dark-500">
                 <Icon icon="fluent:window-dev-tools-20-regular" />
               </p>
-              <p className="text-4xl bg-dark-secondary  dark:text-red-500 p-2 rounded-md text-white hover:shadow-md hover:shadow-dark-500">
+              <p className="text-4xl bg-dark-secondary  dark:text-theme p-2 rounded-md text-white hover:shadow-md hover:shadow-dark-500">
                 <Icon icon="fluent:code-js-16-regular" />
               </p>
-              <p className="text-4xl bg-dark-secondary  dark:text-red-500 p-2 rounded-md text-white hover:shadow-md hover:shadow-dark-500">
+              <p className="text-4xl bg-dark-secondary  dark:text-theme p-2 rounded-md text-white hover:shadow-md hover:shadow-dark-500">
                 <Icon icon="mdi:react" />
               </p>
             </div>
@@ -85,7 +85,7 @@ const PersonalInfo = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default PersonalInfo;
+export default PersonalInfo
