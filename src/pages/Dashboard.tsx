@@ -49,6 +49,7 @@ const Dashboard = () => {
       <Suspense fallback="">
         <PriceModal />
       </Suspense>
+      
       <Suspense fallback="">
         <Blog />
       </Suspense>

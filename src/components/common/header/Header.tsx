@@ -69,7 +69,7 @@ const Header = () => {
             Client
           </a>
           <a
-            href="#home"
+            href="#price"
             className="hover:cursor-pointer dark:hover:text-light-white  "
             target="_self"
             rel="noreferrer"
